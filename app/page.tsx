@@ -5,7 +5,7 @@ import Hero from '@/components/home/Hero';
 import { Button } from '@/components/ui/button';
 import { Suspense } from 'react';
 
-function HomePage() {
+function page() {
 	return (
 		<>
 			<Hero />
@@ -17,4 +17,4 @@ function HomePage() {
 		</>
 	);
 }
-export default HomePage;
+export default page;
